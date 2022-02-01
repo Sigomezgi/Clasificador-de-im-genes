@@ -6,9 +6,9 @@
 
 ## Introducción
 
-<p align = "justify"> El hecho de clasificar, consiste en aquel proceso dictómico de distinguir cosas u objetos que poseen cierta característica de aquellos que no la tienen, con el fin de agrupar en una clase aquellos que poseen una característica o propiedad común. El gran objetivo de este trabajo, es la formulación y construcción de un modelo de aprendizaje estadístico, con la finalidad de clasificar imágenes de sujetos con y sin anteojos.  </p>
+<p align = "justify"> Clasificar consiste en un proceso dictómico de distinguir cosas u objetos que poseen cierta característica de aquellos que no la tienen, con el fin de agrupar en una clase aquellos que poseen una característica o propiedad común. El gran objetivo de este trabajo, es la formulación y construcción de un modelo de aprendizaje estadístico, con la finalidad de clasificar imágenes de sujetos con y sin anteojos.  </p>
 
-<p align = "justify"> Con el fin de lograr un adecuado procedimiento, usando técnicas de aprendizaje estadístico, previamente se cuenta con una base de datos de 5.000 imágenes para el estudio, a los que posteriormente se les validará según sea el modelo clasificatorio. </p>
+<p align = "justify"> Con el fin de lograr un adecuado procedimiento, usando técnicas de aprendizaje estadístico, previamente se cuenta con una base de datos de 4500 imágenes para el estudio, a los que posteriormente se les validará según sea el modelo clasificatorio. </p>
 
 
 ##  Descubrimiento y entendimiento de la base de datos
@@ -21,7 +21,7 @@
 ## Análisis Descriptivo
 
 
-<p align = "justify"> En primera instancia, nos interesa analizar como están distribuidos los datos, en relación de cantidades de personas que poseen gafas y las que no hacen uso de ellas, por lo que haremos un pequeño análisis descriptivo de nuestros datos: </p>
+<p align = "justify"> En primera instancia, interesa analizar como están distribuidos los datos, en relación de cantidades de personas que poseen gafas y las que no hacen uso de ellas, por lo que se realiza un análisis descriptivo de nuestros datos: </p>
 
 
 
