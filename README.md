@@ -39,7 +39,7 @@
 
 ## Procesamiento de imágenes
 
-<p align = "justify"> Para el procesamiento de imágenes era necesario realizar una adecuación de cada imagen debido a que todas las imágenes se encontraban en formato RGB, era práctico realizar la respectiva conversión a escala de grises, este cambio de color reduce la cantidad a un tercio de los datos a color. Debido a la alta resolución de las imágenes, se permite la disminución de la resolución a un 5% de la original</p>
+<p align = "justify"> Para el procesamiento de imágenes era necesario realizar una adecuación de cada una de ellas debido a que todas  se encontraban en formato RGB, resulta práctico realizar la respectiva conversión a escala de grises, este cambio de color reduce la cantidad a un tercio de los datos a color. Debido a la alta resolución de las imágenes, se permite la disminución de la resolución a un 5% de la original</p>
 <p align = "justify"> La forma con la cual se obtuvo la base de datos permite que todas las imágenes exhiban características similares en cuánto a la resolución y la posición de los rostros, esto reduce un poco la limpieza de los datos y permite plasmar caracteriticas particulares como el que se muestra a continuación como rostro promedio. Sin embargo esto reduce la variabilidad y disminuye de generalización del modelo con esta base de datos</p>
 
 ![rostromean](https://user-images.githubusercontent.com/94578395/151915865-dc1e5f60-a810-4ca4-96f3-3ac24aa7f0af.JPG)
