@@ -21,7 +21,7 @@
 ## Análisis Descriptivo
 
 
-<p align = "justify"> En primera instancia, interesa analizar como están distribuidos los datos, en relación de cantidades de personas que poseen gafas y las que no hacen uso de ellas, por lo que se realiza un análisis descriptivo de nuestros datos: </p>
+<p align = "justify"> En primera instancia, interesa analizar como están distribuidos los datos en relación de cantidades de personas que poseen gafas y las que no hacen uso de ellas, por lo que se realiza un análisis descriptivo de nuestros datos: </p>
 
 
 
