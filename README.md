@@ -27,7 +27,7 @@
 
 ![graf1](https://github.com/Sigomezgi/Clasificador-de-im-genes/blob/main/graf1.png)
 
-<p align = "justify"> Del gráfico anterior, se puede evidenciar la superioridad de personas que usan gafas, con un poco mas de mil personas de diferencia. Al enfrentarse a la situación de crear un modelo de clasificación es habitual que las clases no se encuentren balanceadas. Esto es, el número de registros para una de las clases es inferior al resto. Cuando el desequilibrio es pequeño, uno a dos, esto no supone un problema, pero cuando es grande es un problema para la mayoría de los modelos de clasificación. Esta situación se conoce como el Problema del Desequilibrio de Clases.  </p>
+<p align = "justify"> A pesar que hay una tendencia en la base de datos a las personas con gafas, dicha diferencia no lleva a considerar algún tipo de pre procesamiento que permita evitar desbalances en la muestra de entrenamiento. Cuando el desequilibrio es pequeño, uno a dos, esto no supone un problema, pero cuando es grande es un problema para la mayoría de los modelos de clasificación. Esta situación se conoce como el Problema del Desequilibrio de Clases.  </p>
 
 
 
