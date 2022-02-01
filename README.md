@@ -70,11 +70,18 @@ La desviación estándar de ese rostro corresponde a:
 ## Resultados
 <p align = "justify">Luego de sintonizar los parámetros del modelo de regresión Logistica, se encuentra una precisión del 74% para el cojunto de entrenamiento y de un 72% para el cojunto de validación. Estos resultados no son los valores esperados en modelos de clasificados, pero si ayudan a marcar una tendencia del comportamiento de los datos </p>
 
-<p align = "justify">Se pone a prueba el modelo con un [data set](https://archive.ics.uci.edu/ml/datasets/CMU+Face+Images) que contiene imágenes en un formato (rostros en posiciónes diferentes) y con una resolución muy diferente a la del data set con el cual se genero el modelo. Como era de esperar se la precisión del modelo bajo hasta el 53%, lo cual es el resultado mas indeseable con esta métrica. Este error se debe a la baja varibilidad que tenía la base de datos de entrenamineto y test. </p>
+<p align = "justify">Se pone a prueba el modelo con un data set(https://archive.ics.uci.edu/ml/datasets/CMU+Face+Images) que contiene imágenes en un formato (rostros en posiciónes diferentes) y con una resolución muy diferente a la del data set con el cual se genero el modelo. Como era de esperar se la precisión del modelo bajo hasta el 53%, lo cual es el resultado mas indeseable con esta métrica. Este error se debe a la baja varibilidad que tenía la base de datos de entrenamineto y test. </p>
 
 ![prooff](https://user-images.githubusercontent.com/94578395/151920522-46a4192b-b5d3-409b-b9fb-399027dd402a.JPG)
 
+## Crítica y trabajos futuros
+<p align = "justify">Los resultados deseados no fueron óptimos para generar un un clasificador correcta, y este hecho se debe a la poco varibilidad que tenía la base de datos con la que se desarrollo el problema. Para versiones posteriores sobre este trabajo se esperar aumentar las métricas de precisión, esto se puede lograr generando una base de datos con mucha varibilidad: Resolución, posición, gestos, entre otros. Se podría construir una aplicación interactiva en la que el usuario pueda subir una imagen y el modelo indique si el personaje contiene o no anteojos. </p>
 
 
-
+## Referencias
+  - James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). *An introduction to statistical learning (Vol. 112, p. 18). New York: springer.*
+  - Stack Overflow - Where Developers Learn, Share, & Build Careers. (n.d.). Retrieved January 17, 2022, de: [Stackoverflow](https://stackoverflow.com/)
+  - Hacia la ciencia de datos. (n.d.). Retrieved January 17, 2022, de: [Towards Data Science](https://towardsdatascience.com/)
+  - FrikisparaGeeks | Un portal de informática para geeks. (n.d.). Retrieved January 17, 2022, de: [Geeks for geeks](https://www.geeksforgeeks.org/)
+  - pandas - Biblioteca de análisis de datos de Python. (n.d.). Retrieved January 17, 2022, de: [Pandas](https://pandas.pydata.org/)
 
