@@ -67,6 +67,8 @@ La desviación estándar de ese rostro corresponde a:
 
 <p align = "justify">Se implementó una red neuronal de cinco capas, donde la función de activación se alterno entre la función sigmoide y la función de softmax. A pesar de la gran capcidad que tienen estos modelos para este tipo de clasificación, los resultados se encuentran muy por debajo de lo esperado pues como mejor valor de precisión fue del 63%. Es por esto que se desecho la idea del modelo de red neuronal y se implementa el modelo de regresión logística que su característica de modelo caja negra son bajas comparada con un de red neuronal </p>
 
+## Resultados
+<p align = "justify">Luego de sintonizar los parámetros del modelo de regresión Logistica, se encuentra una precisión del 74% para el cojunto de entrenamiento y de un 72% para el cojunto de validación. Estos resultados no son los valores esperados en modelos de clasificados, pero si ayudan a marcar una tendencia del comportamiento de los datos </p>
 
 
 
