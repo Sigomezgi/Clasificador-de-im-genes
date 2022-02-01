@@ -24,8 +24,8 @@
 <p align = "justify"> En primera instancia, interesa analizar como están distribuidos los datos, en relación de cantidades de personas que poseen gafas y las que no hacen uso de ellas, por lo que se realiza un análisis descriptivo de nuestros datos: </p>
 
 
-
-![graf1](https://github.com/Sigomezgi/Clasificador-de-im-genes/blob/main/graf1.png)
+<p align = "justify">
+![graf1](https://github.com/Sigomezgi/Clasificador-de-im-genes/blob/main/graf1.png) </p>
 
 <p align = "justify"> A pesar que hay una tendencia en la base de datos a las personas con gafas, dicha diferencia no lleva a considerar algún tipo de pre procesamiento que permita evitar desbalances en la muestra de entrenamiento. Cuando el desequilibrio es pequeño, uno a dos, esto no supone un problema, pero cuando es grande es un problema para la mayoría de los modelos de clasificación. Esta situación se conoce como el Problema del Desequilibrio de Clases.  </p>
 
