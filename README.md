@@ -70,5 +70,11 @@ La desviación estándar de ese rostro corresponde a:
 ## Resultados
 <p align = "justify">Luego de sintonizar los parámetros del modelo de regresión Logistica, se encuentra una precisión del 74% para el cojunto de entrenamiento y de un 72% para el cojunto de validación. Estos resultados no son los valores esperados en modelos de clasificados, pero si ayudan a marcar una tendencia del comportamiento de los datos </p>
 
+<p align = "justify">Se pone a prueba el modelo con un [data set](https://archive.ics.uci.edu/ml/datasets/CMU+Face+Images) que contiene imágenes en un formato (rostros en posiciónes diferentes) y con una resolución muy diferente a la del data set con el cual se genero el modelo. Como era de esperar se la precisión del modelo bajo hasta el 53%, lo cual es el resultado mas indeseable con esta métrica. Este error se debe a la baja varibilidad que tenía la base de datos de entrenamineto y test. </p>
+
+![prooff](https://user-images.githubusercontent.com/94578395/151920522-46a4192b-b5d3-409b-b9fb-399027dd402a.JPG)
+
+
+
 
 
