@@ -37,5 +37,10 @@
 
 ![graf3](https://user-images.githubusercontent.com/94578395/151914180-1294a998-7258-4f85-8dfe-cd99c2ed4a33.JPG)
 
+## Procesamiento de imágenes
+
+<p align = "justify"> Para el procesamiento de imagenes era necesario realizar una adecuación de cada imagen. Debido a que todas las imágenes se encontraban en formato RGB, era necesario realizar la respectiva conversión a escala de grises, este cambio de color reduce la cantidad a un tercio de los datos a color.</p>
+<p align = "justify"> La forma con la cual se obtuvo la base de datos permite que todas las imágenes exhiban características similares en cuánto a la resolución y la posición de los rostros, esto reduce un poco la limpieza de los datos y permite plasmar caracteriticas particulares como el que se muestra a continuación como rostro promedio. Sin embargo esto reduce la variabilidad y disminuye de generalización del modelo con esta base de datos</p>
+
 
 
