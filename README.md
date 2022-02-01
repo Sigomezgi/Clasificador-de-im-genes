@@ -32,3 +32,8 @@
 
 
 ![graf2](![graf1](https://github.com/Sigomezgi/Clasificador-de-im-genes/blob/main/graf1.png))
+
+
+![graf3](![graf1](![graf2](![graf1](https://github.com/Sigomezgi/Clasificador-de-im-genes/blob/main/graf1.png))))
+
+
