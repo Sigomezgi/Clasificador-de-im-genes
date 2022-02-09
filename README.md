@@ -27,6 +27,8 @@
 
 ![graf1](https://github.com/Sigomezgi/Clasificador-de-im-genes/blob/main/graf1.png) 
 
+       Figura 1: Personas que usan gafas
+
 <p align = "justify"> A pesar que hay una tendencia en la base de datos a las personas con gafas, dicha diferencia no lleva a considerar algún tipo de pre procesamiento que permita evitar desbalances en la muestra de entrenamiento pues cuando el desequilibrio es pequeño,  de ratio uno a dos, esto no supone un problema pero cuando es grande es un problema para la mayoría de los modelos de clasificación. Esta situación se conoce como el Problema del Desequilibrio de Clases.  </p>
 
 
@@ -37,6 +39,8 @@
 
 ![graf3](https://user-images.githubusercontent.com/94578395/151914180-1294a998-7258-4f85-8dfe-cd99c2ed4a33.JPG)
 
+             Figura 2: Distribución de los registros
+
 ## Procesamiento de imágenes
 
 <p align = "justify"> Para el procesamiento de imágenes era necesario realizar una adecuación de cada una de ellas debido a que todas  se encontraban en formato RGB, resulta práctico realizar la respectiva conversión a escala de grises, este cambio de color reduce la cantidad a un tercio de los datos a color. Debido a la alta resolución de las imágenes, se permite la disminución de la resolución a un 5% de la original</p>
@@ -44,9 +48,13 @@
 
 ![rostromean](https://user-images.githubusercontent.com/94578395/151915865-dc1e5f60-a810-4ca4-96f3-3ac24aa7f0af.JPG)
 
+     Figura 3: Escala de grises
+
 La desviación estándar de ese rostro corresponde a:
 
 ![std](https://user-images.githubusercontent.com/94578395/151916072-49de80e4-a2d5-484f-918a-600854b0ec8e.JPG)
+
+     Figura 4: Desviación estándar
 
 <p align = "justify">Como se aprecia no hay marcadas escalas de negro en el rostro de desviación estándar</p>
 
@@ -57,9 +65,13 @@ La desviación estándar de ese rostro corresponde a:
 
 ![variability](https://user-images.githubusercontent.com/94578395/151917306-7bc09ab8-b607-479e-8e18-6a68564798e7.JPG)
 
-<p align = "justify">Al proyectar los datos sobre estas componentes principales, se observa que los datos que se encontraban en la escala de grises se salen de la misma. A continuación se presetan tres imágenes: La primera imagen corresponde a la imagen real a color en las dimensiones originales, la segunda corresponde a la imagen real a blanco y negro en las dimensiones en la que se procesasn los datos (50 x 50), la tercera corresponde a la proyección de los datos originales en dimensiones 9x9 donde se retiene el 93 % de la variabilidad de la segunda imagen. Es importante mencionar que la imagen resulta a color pues cuando se realiza la proyección sobre las componentes principales se puede salir del rango de la escala de grises</p>
+     Figura 5: Gráfico variabilidad
+
+<p align = "justify">Al proyectar los datos sobre estas componentes principales, se observa que los datos que se encontraban en la escala de grises se salen de la misma. A continuación se presetan tres imágenes: La primera imagen corresponde a la imagen real a color en las dimensiones originales, la segunda corresponde a la imagen real a blanco y negro en las dimensiones en la que se procesan los datos (50 x 50), la tercera corresponde a la proyección de los datos originales en dimensiones 9x9 donde se retiene el 93 % de la variabilidad de la segunda imagen. Es importante mencionar que la imagen resulta a color pues cuando se realiza la proyección sobre las componentes principales se puede salir del rango de la escala de grises</p>
 
 ![proyec](https://user-images.githubusercontent.com/94578395/151917743-79f48917-e548-40be-8c55-532237ec7ef3.JPG)
+
+                                              Figura 6: Contrastes
 
 ### Creación de modelos
 
@@ -73,6 +85,8 @@ La desviación estándar de ese rostro corresponde a:
 <p align = "justify">Se pone a prueba el modelo con un data set(https://archive.ics.uci.edu/ml/datasets/CMU+Face+Images) que contiene imágenes en un formato (rostros en posiciónes diferentes) y con una resolución muy diferente a la del data set con el cual se genero el modelo. Como era de esperar se la precisión del modelo bajo hasta el 53%, lo cual es el resultado mas indeseable con esta métrica. Este error se debe a la baja varibilidad que tenía la base de datos de entrenamineto y test. </p>
 
 ![prooff](https://user-images.githubusercontent.com/94578395/151920522-46a4192b-b5d3-409b-b9fb-399027dd402a.JPG)
+
+             Figura 7: Formato imágenes test
 
 ## Crítica y trabajos futuros
 <p align = "justify">Los resultados deseados no fueron óptimos para generar un un clasificador correcta, y este hecho se debe a la poco varibilidad que tenía la base de datos con la que se desarrollo el problema. Para versiones posteriores sobre este trabajo se esperar aumentar las métricas de precisión, esto se puede lograr generando una base de datos con mucha varibilidad: Resolución, posición, gestos, entre otros. Se podría construir una aplicación interactiva en la que el usuario pueda subir una imagen y el modelo indique si el personaje contiene o no anteojos. </p>
